@@ -1,0 +1,1 @@
+algo produces a shorter time because I have all my CPUs share the same queue. However i later realised this is not allowed as subprocesses can be assigned to the same CPU. Also the procs=NULL is because i didnt implement the logic for the porcessors queued for the challenge.
